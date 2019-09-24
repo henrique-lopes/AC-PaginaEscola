@@ -1,0 +1,29 @@
+body {
+    background:blueviolet;
+    }
+
+    h1.center {
+        text-align: center;
+        }
+/*
+.home{
+        text-align: center
+    }*/
+
+
+
+    #idtitulo{
+        background:orange
+    }
+    #idUm {
+        background: blue;
+      }
+      #idDois {
+        background: yellow;
+      }
+      #idTres {
+        background: lightblue;
+      }
+      #idQuatro {
+        background: lightgreen;
+      }
