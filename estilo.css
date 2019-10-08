@@ -1,0 +1,83 @@
+body{
+        background-color: brown;
+}
+/*img.imagem{
+    float: left;
+    width: 90px;
+    weight:750px;
+    align: center;
+}*/
+
+footer {
+    width: 200%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background: black;
+    color: white;
+    height: 40px;
+    display: flex;
+   }
+
+ /*header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+    background: black;
+    height: 40px;
+ }*/
+ 
+ /* estilizando o que esta na div-menu */
+ div.menu {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: rgba(209, 8, 8, 0.973);
+    background: black;
+    height: 140px;
+
+}
+/* estilizando o que esta na lista (ul e li)*/
+.ul,li{
+       background-color:black;
+       float: left;
+       width: 200px;
+       height: 40px;
+       display : inline-block;
+       text-align: center;
+       line-height: 40px;
+       font-size: 22px;
+       position: relative;
+}
+/* estilizando para que apresenta uma cor ao passar o mouse no menu */
+ .menu ul,li:hover{
+     background-color:rgba(63, 62, 62, 0.897) ;
+ }
+ /* ordenando a sublista dentro da lista no menu*/
+ .menu ul{
+        padding: 0;
+ }
+ /* ocultando a sublista no menu */
+ .menu ul ul{
+     display: none;
+ }
+  /* mostrando  a sublista no menu */
+    .menu ul li:hover > ul{
+        display:block;
+    }
+  /* mostrando  a sublista da sublista no menu */  
+  .menu ul ul ul {
+      margin-left: 202px;
+      top: 0px;
+      position: absolute;
+  }
+/* alterando a cor do submenu a passar o mouser */  
+.menu ul ul li:hover{
+    background-color: rgba(63, 62, 62, 0.897)
+}
+p{
+    color: white;
+}

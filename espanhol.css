@@ -1,0 +1,27 @@
+html{
+
+    background-color: brown;
+   
+}
+
+h2{
+    text-align: center;
+}
+
+div{
+    background: salmon;
+    box-shadow: 5px -9px 3px #000;
+    border-radius: 10px;
+}
+
+p{
+    text-align: center;
+}
+
+a{
+ 
+        text-decoration: none;
+        text-decoration: underline; 
+        color: rgb(19, 17, 17);
+        text-decoration: none;
+}
